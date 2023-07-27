@@ -21,6 +21,8 @@ with open(csvpath) as csvfile:
 # sort the data in chronological order (code found on <https://stackoverflow.com/questions/9917865/sorting-a-csv-object-by-dates-in-python>)
         sorted = sorted(csvreader,key=lambda row: datetime.strptime(row[0], "%d-%b"))
 
+        if long(row[1])<row[]
+
 # caluclate the number of months included in the set (last date minus first date)
         total_months = csvreader[1][0] - csvreader[86][0]
 
